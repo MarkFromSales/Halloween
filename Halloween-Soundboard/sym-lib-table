@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Halloween-Soundboard-rescue)(type Legacy)(uri ${KIPRJMOD}/Halloween-Soundboard-rescue.lib)(options "")(descr ""))
+)

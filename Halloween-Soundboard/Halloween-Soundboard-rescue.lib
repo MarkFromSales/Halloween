@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Halloween-Soundboard-rescue_Adafruit_AudioFX-MFS_Microcontrollers
+# Adafruit_AudioFX-MFS_Microcontrollers
 #
-DEF Halloween-Soundboard-rescue_Adafruit_AudioFX-MFS_Microcontrollers ADA 0 40 Y Y 1 F N
+DEF Adafruit_AudioFX-MFS_Microcontrollers ADA 0 40 Y Y 1 F N
 F0 "ADA" 0 1050 50 H V C CNN
-F1 "Halloween-Soundboard-rescue_Adafruit_AudioFX-MFS_Microcontrollers" 0 -1050 50 H V C CNN
+F1 "Adafruit_AudioFX-MFS_Microcontrollers" 0 -1050 50 H V C CNN
 F2 "" -100 1150 50 H I C CNN
 F3 "" -100 1150 50 H I C CNN
 DRAW
@@ -43,11 +43,11 @@ X T7 9 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Halloween-Soundboard-rescue_GND-CE_VirtualSymbols
+# GND-CE_VirtualSymbols
 #
-DEF Halloween-Soundboard-rescue_GND-CE_VirtualSymbols #PWR 0 0 Y Y 1 F P
+DEF GND-CE_VirtualSymbols #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Halloween-Soundboard-rescue_GND-CE_VirtualSymbols" 0 -150 50 H V C CNN
+F1 "GND-CE_VirtualSymbols" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -56,11 +56,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Halloween-Soundboard-rescue_MCP23008-E_P-MFS_Transistors
+# MCP23008-E_P-MFS_Transistors
 #
-DEF Halloween-Soundboard-rescue_MCP23008-E_P-MFS_Transistors U 0 40 Y Y 1 F N
+DEF MCP23008-E_P-MFS_Transistors U 0 40 Y Y 1 F N
 F0 "U" -200 800 60 H V C CNN
-F1 "Halloween-Soundboard-rescue_MCP23008-E_P-MFS_Transistors" 0 -100 60 V V C CNN
+F1 "MCP23008-E_P-MFS_Transistors" 0 -100 60 V V C CNN
 F2 "digikey-footprints:DIP-18_W7.62mm" 900 1600 60 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920" 900 1700 60 H I L CNN
 F4 "MCP23008-E/P-ND" 900 1800 60 H I L CNN "Digi-Key_PN"
@@ -92,37 +92,6 @@ X ~RESET 6 400 400 100 L 50 50 1 1 I
 X NC 7 400 100 100 L 50 50 1 1 N
 X INT 8 400 300 100 L 50 50 1 1 O
 X GND 9 0 -850 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# Mechanical_MountingHole_Pad
-#
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*Pad*
-$ENDFPLIST
-DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

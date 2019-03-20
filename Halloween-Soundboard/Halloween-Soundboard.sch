@@ -59,7 +59,7 @@ F 3 "~" H 5800 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR0101
+L Halloween-Soundboard-rescue:GND-CE_VirtualSymbols #PWR0101
 U 1 1 5C6D08D8
 P 5800 7550
 F 0 "#PWR0101" H 5800 7300 50  0001 C CNN
@@ -72,7 +72,7 @@ $EndComp
 Wire Wire Line
 	5800 7450 5800 7550
 $Comp
-L MFS_Microcontrollers:Adafruit_AudioFX ADA1
+L Halloween-Soundboard-rescue:Adafruit_AudioFX-MFS_Microcontrollers ADA1
 U 1 1 5C605CF2
 P 5050 3250
 F 0 "ADA1" H 5050 4365 50  0000 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 4950 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MFS_Transistors:MCP23008-E_P U1
+L Halloween-Soundboard-rescue:MCP23008-E_P-MFS_Transistors U1
 U 1 1 5C605F7E
 P 3750 3000
 F 0 "U1" H 3750 4050 60  0000 C CNN

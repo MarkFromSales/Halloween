@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MFS_Microcontrollers:ATmega328_B IC1
+L Halloween-Controller-rescue:ATmega328_B-MFS_Microcontrollers IC1
 U 1 1 5C5F55C5
 P 5800 2300
 F 0 "IC1" H 5950 3250 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "https://www.digikey.com/product-detail/en/ATMEGA328P-PU/ATMEGA328P-PU-ND/19
 	1    0    0    -1  
 $EndComp
 $Comp
-L CE_Crystal:Crystal Y1
+L Halloween-Controller-rescue:Crystal-CE_Crystal Y1
 U 1 1 5C5F566A
 P 4200 2300
 F 0 "Y1" V 4162 2431 39  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 4200 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_Capacitor:C C2
+L Halloween-Controller-rescue:C-CE_Capacitor C2
 U 1 1 5C5F56EA
 P 3850 2100
 F 0 "C2" V 3800 2200 39  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 3850 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_Capacitor:C C3
+L Halloween-Controller-rescue:C-CE_Capacitor C3
 U 1 1 5C5F57A4
 P 3850 2500
 F 0 "C3" V 3800 2600 39  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 3850 2500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR014
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR014
 U 1 1 5C5F57F9
 P 3600 2600
 F 0 "#PWR014" H 3600 2350 50  0001 C CNN
@@ -99,7 +99,7 @@ F 3 "~" H 3600 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR09
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR09
 U 1 1 5C5F5B3D
 P 4200 1700
 F 0 "#PWR09" H 4200 1450 50  0001 C CNN
@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 1250 5000 1850
 $Comp
-L CE_Capacitor:C C1
+L Halloween-Controller-rescue:C-CE_Capacitor C1
 U 1 1 5C5F6D87
 P 4200 1100
 F 0 "C1" V 4150 1200 39  0000 L CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 1750 5300 1750
 $Comp
-L CE_Resistor:R R3
+L Halloween-Controller-rescue:R-CE_Resistor R3
 U 1 1 5C5FB22E
 P 5400 1100
 F 0 "R3" V 5350 1250 39  0000 L CNN
@@ -238,7 +238,7 @@ Connection ~ 3600 2500
 Wire Wire Line
 	3600 2500 3600 2600
 $Comp
-L CE_VirtualSymbols:GND #PWR017
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR017
 U 1 1 5C5FF293
 P 5800 3250
 F 0 "#PWR017" H 5800 3000 50  0001 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR022
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR022
 U 1 1 5C60110C
 P 3550 7200
 F 0 "#PWR022" H 3550 6950 50  0001 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 3550 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CE_Capacitor:C C4
+L Halloween-Controller-rescue:C-CE_Capacitor C4
 U 1 1 5C601140
 P 3550 7000
 F 0 "C4" H 3600 7100 39  0000 L CNN
@@ -317,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 2550 5300 2550
 $Comp
-L CE_Resistor:R R2
+L Halloween-Controller-rescue:R-CE_Resistor R2
 U 1 1 5C61AA52
 P 7950 1100
 F 0 "R2" V 7900 1250 39  0000 L CNN
@@ -328,7 +328,7 @@ F 3 "" H 7950 1100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR04
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR04
 U 1 1 5C61C3A3
 P 8250 1300
 F 0 "#PWR04" H 8250 1050 50  0001 C CNN
@@ -375,7 +375,7 @@ GPIO_2
 Text Label 6300 2150 0    50   ~ 0
 GPIO_2
 $Comp
-L CE_Resistor:R R5
+L Halloween-Controller-rescue:R-CE_Resistor R5
 U 1 1 5C629098
 P 7950 2100
 F 0 "R5" V 7900 2250 39  0000 L CNN
@@ -386,7 +386,7 @@ F 3 "" H 7950 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR011
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR011
 U 1 1 5C62909E
 P 8250 2300
 F 0 "#PWR011" H 8250 2050 50  0001 C CNN
@@ -433,7 +433,7 @@ GPIO_3
 Text Label 6300 2250 0    50   ~ 0
 GPIO_3
 $Comp
-L CE_Resistor:R R7
+L Halloween-Controller-rescue:R-CE_Resistor R7
 U 1 1 5C62CDA2
 P 7950 3100
 F 0 "R7" V 7900 3250 39  0000 L CNN
@@ -444,7 +444,7 @@ F 3 "" H 7950 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR016
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR016
 U 1 1 5C62CDA8
 P 8250 3300
 F 0 "#PWR016" H 8250 3050 50  0001 C CNN
@@ -489,7 +489,7 @@ Wire Wire Line
 Text Label 7800 3100 2    50   ~ 0
 GPIO_4
 $Comp
-L CE_Resistor:R R8
+L Halloween-Controller-rescue:R-CE_Resistor R8
 U 1 1 5C62CDC0
 P 7950 4100
 F 0 "R8" V 7900 4250 39  0000 L CNN
@@ -500,7 +500,7 @@ F 3 "" H 7950 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR023
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR023
 U 1 1 5C62CDC6
 P 8250 4300
 F 0 "#PWR023" H 8250 4050 50  0001 C CNN
@@ -565,7 +565,7 @@ GPIO_8
 Text Label 6300 2950 0    50   ~ 0
 GPIO_10
 $Comp
-L CE_Resistor:R R1
+L Halloween-Controller-rescue:R-CE_Resistor R1
 U 1 1 5C6775C2
 P 2200 1200
 F 0 "R1" V 2150 1450 39  0000 R CNN
@@ -576,7 +576,7 @@ F 3 "" H 2200 1200 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR03
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR03
 U 1 1 5C6775C8
 P 1900 1400
 F 0 "#PWR03" H 1900 1150 50  0001 C CNN
@@ -604,7 +604,7 @@ Wire Wire Line
 Text Label 2350 1200 0    50   ~ 0
 AIO_0
 $Comp
-L CE_VirtualSymbols:GND #PWR010
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR010
 U 1 1 5C6775E6
 P 1900 2400
 F 0 "#PWR010" H 1900 2150 50  0001 C CNN
@@ -632,7 +632,7 @@ Wire Wire Line
 Text Label 2350 2200 0    50   ~ 0
 AIO_1
 $Comp
-L CE_VirtualSymbols:GND #PWR015
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR015
 U 1 1 5C677604
 P 1900 3400
 F 0 "#PWR015" H 1900 3150 50  0001 C CNN
@@ -660,7 +660,7 @@ Wire Wire Line
 Text Label 2350 3200 0    50   ~ 0
 AIO_2
 $Comp
-L CE_VirtualSymbols:GND #PWR021
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR021
 U 1 1 5C677622
 P 2350 4800
 F 0 "#PWR021" H 2350 4550 50  0001 C CNN
@@ -684,7 +684,7 @@ $EndComp
 Text Label 2800 4600 0    50   ~ 0
 AIO_3
 $Comp
-L CE_Resistor:R R4
+L Halloween-Controller-rescue:R-CE_Resistor R4
 U 1 1 5C67F86D
 P 2200 2200
 F 0 "R4" V 2150 2450 39  0000 R CNN
@@ -695,7 +695,7 @@ F 3 "" H 2200 2200 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CE_Resistor:R R6
+L Halloween-Controller-rescue:R-CE_Resistor R6
 U 1 1 5C67F915
 P 2200 3200
 F 0 "R6" V 2150 3450 39  0000 R CNN
@@ -729,7 +729,7 @@ Text Notes 2100 2400 0    50   ~ 0
 Text Notes 2100 3400 0    50   ~ 0
 (future use)
 $Comp
-L CE_VirtualSymbols:GND #PWR025
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR025
 U 1 1 5C6962F0
 P 3000 6900
 F 0 "#PWR025" H 3000 6650 50  0001 C CNN
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 3100 1900 3100
 $Comp
-L CE_VirtualSymbols:GND #PWR0101
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR0101
 U 1 1 5C6D08D8
 P 5800 7550
 F 0 "#PWR0101" H 5800 7300 50  0001 C CNN
@@ -865,7 +865,7 @@ $EndComp
 Wire Wire Line
 	5800 7450 5800 7550
 $Comp
-L MFS_Power:Adafruit_PowerBoost_1000C VTR1
+L Halloween-Controller-rescue:Adafruit_PowerBoost_1000C-MFS_Power VTR1
 U 1 1 5C5FB45B
 P 2200 7150
 F 0 "VTR1" H 2200 7865 50  0000 C CNN
@@ -891,7 +891,7 @@ F 3 "" H 1200 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CE_VirtualSymbols:GND #PWR026
+L Halloween-Controller-rescue:GND-CE_VirtualSymbols #PWR026
 U 1 1 5C61A1F3
 P 850 7150
 F 0 "#PWR026" H 850 6900 50  0001 C CNN
